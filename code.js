@@ -13,7 +13,7 @@
         let min = rsec/60;
             rsec= rsec%60;
             // Display the remaining time
-            timerDiv.innerHTML = 'In <p style="font-size:20px;">'+Math.trunc(days)+' DAYS </p>';
+            timerDiv.innerHTML = 'In<br>'+Math.trunc(days)+' DAYS <br>';
             timerDiv.innerHTML += Math.trunc(hour)+' HOURS '+Math.trunc(min)+' MINUTES '+Math.trunc(rsec)+' SECONDS';
 
             // Decrement the countdown time
