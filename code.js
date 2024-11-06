@@ -19,3 +19,31 @@
             // Decrement the countdown time
             
         }, 1000);
+
+            const image1 = document.getElementById('image1');
+            const image2 = document.getElementById('image2');
+            const image3 = document.getElementById('image3');
+            const image4 = document.getElementById('image4');
+   
+                function mov(img,position){
+                setInterval(()=>
+                    {
+
+
+                         img.style.bottom = position + 'px';
+
+                         position+=0.5;
+                         if(position>850)
+                         {
+                            position=Math.round(Math.random()*100);
+                         }
+
+                },1);
+
+            }
+
+            mov(image1,Math.round(Math.random()*100));
+            mov(image2,Math.round(Math.random()*100));
+            mov(image3,Math.round(Math.random()*100));
+            mov(image4,Math.round(Math.random()*100));
+
