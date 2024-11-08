@@ -55,7 +55,7 @@
                 let love=document.getElementById(id);
                 love.height+=10;
                 love.width+=10;
-                     if(love.height>100)
+                     if(love.height>200)
                 {
                     love.src='dove.png';
                 }
