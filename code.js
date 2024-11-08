@@ -41,9 +41,19 @@
                 },1);
 
             }
+            const ply= document.getElementById('ad');
+            //ply.play();
 
             mov(image1,Math.round(Math.random()*100));
             mov(image2,Math.round(Math.random()*100));
             mov(image3,Math.round(Math.random()*100));
             mov(image4,Math.round(Math.random()*100));
+           
+
+            function hold(id)
+            {
+                let love=document.getElementById(id);
+                love.height+=10;
+                love.width+=10;
+            }
 
