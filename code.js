@@ -4,7 +4,7 @@
         const countdown = setInterval(() => {
             // Calculate minutes and seconds
             
-           let d=new Date('Dec 19 2024');
+           let d=new Date('Dec 18 2024');
         let sec=(d-new Date())/1000;
         let days= sec/(24*3600);
         let rsec= (sec%(24*3600));
